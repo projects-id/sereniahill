@@ -30,11 +30,4 @@
 	//Pause carousel  
 	$myCarousel.carousel('pause');
 	
-	
-	//Other slides to be animated on carousel slide event 
-	$myCarousel.on('slide.bs.carousel', function (e) {
-		var $animatingElems = $(e.relatedTarget).find("[data-animation ^= 'animated']");
-		doAnimations($animatingElems);
-	});  
-	
 })(jQuery);

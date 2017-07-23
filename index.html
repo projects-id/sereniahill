@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>AREBI</title>
+	<title>SERENIA HILLS</title>
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<!-- development -->
@@ -19,48 +19,98 @@
 
 	<!-- Script -->
 </head>
+<style>
+.carousel.fade {
+    opacity: 1;
+
+}
+
+.carousel.fade .item {
+    left: 0 !important;
+    opacity: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    display: block !important;
+    z-index: 1;
+    -moz-transition:ease 6s;
+    -ms-transition: ease 6s;
+    -webkit-transition: ease 6s;
+    transition: ease  6s;
+}
+.carousel.fade .item:first-child {
+    top: auto;
+    position: relative;
+    
+}
+.carousel.fade .item.active {
+    opacity: 1;
+    z-index: 2;
+}
+
+#body-arebi #slider #carousel-arebi .carousel-inner .carousel-caption{
+	top: 5%;
+    left: 0;
+    right: 0;
+    width: 650px;
+/*    border-bottom: 1px solid;*/
+    height: 100px;
+}
+
+#body-arebi #slider #carousel-arebi .carousel-inner .carousel-caption h1:first-child {
+	float: right;
+    font-size: 70px;
+    font-weight: 100;
+    padding: 0;
+}
+</style>
 <body>
 	<div id="body-arebi">
 		<div id="slider">
-			<div id="carousel-arebi" class="carousel slide" data-ride="carousel">
+			<div id="carousel-arebi" class="carousel fade" data-ride="carousel">
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner" role="listbox">
 					<!-- First slide -->
-					<div class="item active deepskyblue">
+					<div class="item active signature">
 						<div class="carousel-caption">
-							<h3 data-animation="animated bounceInLeft">SELAMAT DATANG DI AREBI</h3>
-							<h3 data-animation="animated bounceInRight">Asosiasi Real Estate Broker Indonesia</h3>
+							<h1 data-animation="animated fadeInLeft">SIGNATURE</h3>
+							<hr data-animation="animated fadeInLeft"></hr>
+						</div>
+						<div class="carousel-tagline">
+							<h3 data-animation="animated fadeInRight">RESIDENCES DESIGNED FOR LIFESTYLE</h3>
 						</div>
 					</div> <!-- /.item -->
 					<!-- Second slide -->
-					<div class="item skyblue">
+					<div class="item quantum">
 						<div class="carousel-caption">
-							<h3 data-animation="animated bounceInDown">SELAMAT DATANG DI AREBI</h3>
-							<h3 data-animation="animated bounceInUp">Asosiasi Real Estate Broker Indonesia</h3>
+							<h1 data-animation="animated fadeInLeft">QUANTUM</h3>
+							<hr data-animation="animated fadeInLeft"></hr>
+						</div>
+						<div class="carousel-tagline">
+							<h3 data-animation="animated fadeInRight">RESIDENCES DESIGNED FOR LIFESTYLE</h3>
+						</div>
+					</div><!-- /.item
+					<!- Third slide -->
+					<div class="item venture">
+						<div class="carousel-caption">
+							<h1 data-animation="animated fadeInLeft">VENTURE</h3>
+							<hr data-animation="animated fadeInLeft"></hr>
+						</div>
+						<div class="carousel-tagline">
+							<h3 data-animation="animated fadeInRight">RESIDENCES DESIGNED FOR LIFESTYLE</h3>
 						</div>
 					</div><!-- /.item -->
-					<!-- Third slide -->
-					<div class="item darkerskyblue">
-						<div class="carousel-caption">
-								<h3 data-animation="animated flipInX">SELAMAT DATANG DI AREBI</h3>
-							<h3 data-animation="animated flipInX">Asosiasi Real Estate Broker Indonesia</h3>
-						</div>
-					</div><!-- /.item -->
-				</div><!-- /.carousel-inner -->
+				</div> <!-- /.carousel-inner -->
 			</div><!-- /.carousel -->
+			<div class="button-srn">
+              <button type="button" class="btn btn-srn">Get Started</button>
+          </div>
 		</div>		
 	</div>
 	
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src='http://isotope.metafizzy.co/beta/isotope.pkgd.js'></script>
 <script src='http://imagesloaded.desandro.com/imagesloaded.pkgd.js'></script>
-<script src="assets/vendors/modernizr/modernizr.custom.js"></script>
-<script src="assets/vendors/gridScrollFx/gridScrollFx.js"></script>
-<script src="assets/vendors/masonry.pkgd/masonry.pkgd.min.js"></script>
-<script src="assets/vendors/prefix/prefix.min.js"></script>
-<script src="assets/js/arebi-isotope.js"></script>
-<script src="assets/js/arebi.js"></script>
 <script src="assets/js/animate.js"></script>
 
 </body>

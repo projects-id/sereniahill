@@ -384,51 +384,55 @@ span.current {
                 }
             }
             .carousel-inner{
+                height: 1080px;
                 .carousel-caption{
-                    bottom: 10%;
-                    h3{
+                    h1{
                         padding: 20px;
                         color: #fff;
-                        border: 1px solid #fff;
-                        font-size: 30px;
+                        font-size: large;
                         font-weight: 500;
-                        @media screen and (max-width: 992px){
-                            font-size: 18px;
-                        }
-                        &:first-child{
-                            font-size: 38px;
-                            -webkit-animation-delay: 1s;
-                            -moz-animation-delay: 1s;
-                            animation-delay: 1s;
-                            @media screen and (max-width: 992px){
-                                font-size: 24px;
-                            }
-                        }
-                        &:nth-child(2) {
-                            -webkit-animation-delay: 2s;
-                            -moz-animation-delay: 2s;
-                            animation-delay: 2s;
-                        }
+                        font-size: 38px;
+                        opacity: 1;
+                        -webkit-animation-delay: 4s;
+                        -moz-animation-delay:4s;
+                        animation-delay:4s;
                     }
-                    button{
-                        border-color: #00bfff;
-                        margin-top: 1em;
-                        -webkit-animation-delay: 3s;
-                        -moz-animation-delay: 3s;
-                        animation-delay: 3s;
-                    }
-                    @media screen and (min-width: 768px){
-                        left: 25%;
-                        right: 25%;
+                    hr{
+                       width: 650px;
+                        opacity: 1;
+                        -webkit-animation-delay: 2s;
+                        -moz-animation-delay: 2s;
+                        animation-delay: 2s;
                     }
                 }
-                .skyblue{
+                .carousel-tagline{
+                    width: 100%;
+                    bottom: 0;
+                    position: absolute;
+                    h3{
+                        color: #fff;
+                        font-size: 64px;
+                        font-weight: 100;
+                        width: 500px;
+                        line-height: 1;
+                        float: right;
+                        margin: 100px;
+                        &:first-child{
+                            opacity: 1;
+                            -webkit-animation-delay: 3s;
+                            -moz-animation-delay: 3s;
+                            animation-delay: 3s;
+                        }
+                    }
+                }
+                .signature{
                     background: url(https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/banner/bg-signature-1920x1080.png) no-repeat center;
                 }
-                .deepskyblue{
+                .quantum{
                     background: url(https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/banner/bg-quantum-1920x1080.png) no-repeat center;
-                .darkerskyblue{
-                    background: url(https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/banner/bg-quantum-1920x1080.png) no-repeat center;
+                }
+                .venture{
+                    background: url(https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/banner/bg-venture-1920x1080.png) no-repeat center;
                 }
             }
             .carousel-control.right,
