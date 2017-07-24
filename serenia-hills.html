@@ -20,81 +20,67 @@
 	<!-- scroll page -->
 	<link href='assets/vendors/onepage/onepage-scroll.css' rel='stylesheet' type='text/css'>
 </head>
-
- <style>
-    html {
-      height: 100%;
-    }
-    body {
-      background: #E2E4E7;
-      padding: 0;
-      text-align: center;
-      font-family: 'open sans';
-      position: relative;
-      margin: 0;
-      height: 100%;
-      -webkit-font-smoothing: antialiased;
-    }
-    
-    #serenia-body{
-    	height: 100% !important;
-    	height: 100%;
-    	margin: 0 auto; 
-    	overflow: hidden;
-    }
-   
-    .main section .page_container {
-      position: relative;
-      top: 25%;
-      margin: 0 auto 0;
-      max-width: 950px;
-      z-index: 3;
-    }
-    .main section  {
-      overflow: hidden;
-    }
-    
-    body.disabled-onepage-scroll .onepage-wrapper  section {
-      min-height: 100%;
-      height: auto;
-    }
-   
-	</style>
 <body>
 <div id="serenia-body">
 	<div class="main">
-		<section class="page1">
-			<div class="page_container">
-			<h1>Banner</h1>
+		<!-- <section class="banner">
+			<div class="page-container">
+				<div class="banner-serenia">
+					<img src="https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/logo/logo-transparent-serenia.png" alt="">
+				</div>
+				<div class="title-serenia">
+					<span>Your Private Sanctuary In South Jakarta</span>
+				</div>
 			</div>
-		</section>
-
-		<section class="page2">
-			<div class="page_container">
+		</section> -->
+		<section class="location">
+			<div class="page-container">
 			<h1>Location</h1>
 			</div>
 		</section>
-
-		<section class="page3">
-			<div class="page_container">
+		<!-- <section class="product">
+			<div class="page-container">
 			<h1>Product</h1>
 			</div>
 		</section>
-
-		<section class="page4">
-			<div class="page_container">
+		<section class="facility">
+			<div class="page-container">
 			<h1>facility</h1>
 			</div>
-		</section>
-
-		<section class="page5">
-			<div class="page_container">
-			<h1>footer</h1>
+		</section> -->
+		<section class="footer">
+			<div class="page-container">
+				<div class="container">
+					<div class="logo-footer">
+						<img src="https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/Intiland-1.png" class="img-responsive" alt="">
+					</div>
+					<div class="title-footer">
+						<h1>PT Intiland Development Tbk</h1>
+						<p>Intiland Tower, Penthouse Floor - Jl Jendral Sudirman 32, Jakarta 10220.</p>
+						<p>P. +62 21 5701912,5708088, E. info@intiland.com</p>
+					</div>
+					<div class="form-input-serenia">
+					  	<div class="col-md-4">
+						    <div class="input-group">
+						      	<input type="text" class="form-control" placeholder="Phone Number">
+						    </div>
+					  	</div>
+					  	<div class="col-md-4">
+						    <div class="input-group">
+						      	<input type="text" class="form-control" placeholder="Email">
+						    </div>
+					  	</div>
+					  	<div class="col-md-4">
+						    <button type="button" class="btn btn-default btn-lg">
+								<span class="" aria-hidden="true">SUBMIT</span>
+							</button>
+					  	</div>
+					</div>
+				</div>
 			</div>
 		</section>
 	</div>
-</div>
-
+</div>	
 
 
 	
@@ -105,13 +91,13 @@
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
 <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
 <script type="text/javascript">
-	  $(document).ready(function(){
-      $(".main").onepage_scroll({
-        sectionContainer: "section",
-        responsiveFallback: 600,
-        loop: true
-      });
-		});
+	$(document).ready(function(){
+	    $(".main").onepage_scroll({
+	        sectionContainer: "section",
+	        responsiveFallback: 1000,
+	        loop: false,
+	    });
+	});
 </script>
 
 </body>

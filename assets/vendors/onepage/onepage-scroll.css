@@ -45,15 +45,14 @@ body, .onepage-wrapper, html {
   padding: 10px;
   width: 4px;
   height: 4px;
-  display: block;
-  
+  display: none;
 }
 .onepage-pagination li a:before{
   content: '';
   position: absolute;
   width: 4px;
   height: 4px;
-  background: rgba(0,0,0,0.85);
+  background: transparent;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
