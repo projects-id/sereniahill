@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SERENIA HILLS</title>
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<!-- development -->
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.3/less.min.js"></script>
+	
+	<!-- Animate.css library -->
+	<link rel="stylesheet" href="assets/vendors/animate/animate.min.css">
+
+	<!-- Google Web Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+
+	<!-- scroll page -->
+	<link href='assets/vendors/onepage/onepage-scroll.css' rel='stylesheet' type='text/css'>
+</head>
+
+ <style>
+    html {
+      height: 100%;
+    }
+    body {
+      background: #E2E4E7;
+      padding: 0;
+      text-align: center;
+      font-family: 'open sans';
+      position: relative;
+      margin: 0;
+      height: 100%;
+      -webkit-font-smoothing: antialiased;
+    }
+    
+    #serenia-body{
+    	height: 100% !important;
+    	height: 100%;
+    	margin: 0 auto; 
+    	overflow: hidden;
+    }
+   
+    .main section .page_container {
+      position: relative;
+      top: 25%;
+      margin: 0 auto 0;
+      max-width: 950px;
+      z-index: 3;
+    }
+    .main section  {
+      overflow: hidden;
+    }
+    
+    body.disabled-onepage-scroll .onepage-wrapper  section {
+      min-height: 100%;
+      height: auto;
+    }
+   
+	</style>
+<body>
+<div id="serenia-body">
+	<div class="main">
+		<section class="page1">
+			<div class="page_container">
+			<h1>Banner</h1>
+			</div>
+		</section>
+
+		<section class="page2">
+			<div class="page_container">
+			<h1>Location</h1>
+			</div>
+		</section>
+
+		<section class="page3">
+			<div class="page_container">
+			<h1>Product</h1>
+			</div>
+		</section>
+
+		<section class="page4">
+			<div class="page_container">
+			<h1>facility</h1>
+			</div>
+		</section>
+
+		<section class="page5">
+			<div class="page_container">
+			<h1>footer</h1>
+			</div>
+		</section>
+	</div>
+</div>
+
+
+
+	
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src='http://imagesloaded.desandro.com/imagesloaded.pkgd.js'></script>
+<script src="assets/js/animate.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+<script type="text/javascript">
+	  $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: true
+      });
+		});
+</script>
+
+</body>
+</html>
