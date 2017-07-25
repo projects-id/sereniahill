@@ -20,6 +20,39 @@
 	<!-- scroll page -->
 	<link href='assets/vendors/onepage/onepage-scroll.css' rel='stylesheet' type='text/css'>
 </head>
+<style>
+.nav-tabs>li {
+    float: left;
+    width: 960px;
+    height: 120px;
+}
+
+.nav-tabs>li>a {
+    text-align: -webkit-center;
+    letter-spacing: 5px;
+    color: #7f745e;
+    height: 120px; 
+}
+.nav-tabs {
+    height: 120px;
+    font-size: 48px;
+    background-color: #DBD8C6;
+    color: #7F745E;
+    text-transform: uppercase;
+    }
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    color: #EDEBE8;
+    background-color: #7F745E;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    cursor: default;
+    height: 120px; 
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}    
+</style>
 <body>
 <div id="serenia-body">
 	<div class="main">
@@ -105,8 +138,108 @@
 		</section>
 		<section class="facility">
 			<div class="page-container">
-			<h1>facility</h1>
-			</div>
+				  <div role="tabpanel">
+				  	<!-- Nav tabs -->
+				  	<ul class="nav nav-tabs" role="tablist">
+				  		<li role="presentation" class="active">
+				  			<a href="#home" aria-controls="home" role="tab" data-toggle="tab">serenia mansion</a>
+				  		</li>
+				  		<li role="presentation">
+				  			<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">serenia community</a>
+				  		</li>
+				  	</ul>
+				  
+				  	<!-- Tab panes -->
+				  	<div class="tab-content">
+				  		<div role="tabpanel" class="tab-pane active" id="home">
+				  			<div id="carousel-id" class="carousel slide" data-ride="carousel">
+				  				<ol class="carousel-indicators">
+				  					<li data-target="#carousel-id" data-slide-to="0" class=""></li>
+				  					<li data-target="#carousel-id" data-slide-to="1" class=""></li>
+				  					<li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+				  				</ol>
+				  				<div class="carousel-inner">
+				  					<div class="item">
+				  						<img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/banner/bg-quantum-1920x1080.png">
+				  						<div class="container">
+				  							<div class="carousel-caption">
+				  								<h1>Example headline.</h1>
+				  								<p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+				  								<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+				  							</div>
+				  						</div>
+				  					</div>
+				  					<div class="item">
+				  						<img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/banner/bg-quantum-1920x1080.png">
+				  						<div class="container">
+				  							<div class="carousel-caption">
+				  								<h1>Another example headline.</h1>
+				  								<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+				  								<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+				  							</div>
+				  						</div>
+				  					</div>
+				  					<div class="item active">
+				  						<img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/banner/bg-quantum-1920x1080.png">
+				  						<div class="container">
+				  							<div class="carousel-caption">
+				  								<h1>One more for good measure.</h1>
+				  								<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+				  								<p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+				  							</div>
+				  						</div>
+				  					</div>
+				  				</div>
+				  				<a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+				  				<a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+				  			</div>
+				  		</div>
+				  		<div role="tabpanel" class="tab-pane" id="tab">
+				  			<div id="carousel-id" class="carousel slide" data-ride="carousel">
+				  				<ol class="carousel-indicators">
+				  					<li data-target="#carousel-id" data-slide-to="0" class=""></li>
+				  					<li data-target="#carousel-id" data-slide-to="1" class=""></li>
+				  					<li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+				  				</ol>
+				  				<div class="carousel-inner">
+				  					<div class="item">
+				  						<img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/banner/bg-quantum-1920x1080.png">
+				  						<div class="container">
+				  							<div class="carousel-caption">
+				  								<h1>Example headline.</h1>
+				  								<p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+				  								<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+				  							</div>
+				  						</div>
+				  					</div>
+				  					<div class="item">
+				  						<img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/banner/bg-quantum-1920x1080.png">
+				  						<div class="container">
+				  							<div class="carousel-caption">
+				  								<h1>Another example headline.</h1>
+				  								<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+				  								<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+				  							</div>
+				  						</div>
+				  					</div>
+				  					<div class="item active">
+				  						<img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/banner/bg-quantum-1920x1080.png">
+				  						<div class="container">
+				  							<div class="carousel-caption">
+				  								<h1>One more for good measure.</h1>
+				  								<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+				  								<p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+				  							</div>
+				  						</div>
+				  					</div>
+				  				</div>
+				  				<a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+				  				<a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+				  			</div>
+				  		</div>
+				  	</div>
+				  </div>
+			</div>	  
 		</section>
 		<section class="footer">
 			<div class="page-container">

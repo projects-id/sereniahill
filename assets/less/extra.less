@@ -247,9 +247,69 @@ body{
 .product {
     background-color: #EDEBE8;
 }
+
 .facility {
     background-color: #fff;
+    .page-container{
+        .container_tabs {
+            &:after {
+                content: '';
+                display: table;
+                clear: both;
+            }
+            input {
+                visibility: hidden;
+                &:hover {
+                    &+label {
+                        color: #666;
+                    }
+                }
+                &:checked {
+                    &+label {
+                        height: 120px;
+                        background-color: #DBD8C6;
+                        width: 960px;
+                        color: #7F745E;
+                        font-size: 48px;
+                        text-align: -webkit-center;
+                        padding: 20px;
+                    }
+                }
+            }
+            label {
+                color: #888;
+                cursor: pointer;
+                float: left;
+
+            }
+            #content-tabs__blc {
+                min-height: 20em;
+                div {
+                    display: none;
+                }
+            }
+            input#tab-1 {
+                &:checked {
+                    &~#content-tabs__blc {
+                        #tab__item1 {
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+            input#tab-2 {
+                &:checked {
+                    &~#content-tabs__blc {
+                        #tab__item2 {
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
+
 .footer {
     background-color: #DBD8C6;
     background-image: url(https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/serenia-hills-logo.png);
