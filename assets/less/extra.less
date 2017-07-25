@@ -205,6 +205,44 @@ body{
 
 .location {
     background-color: #7F745E;
+    .container-fluid{
+        .row{
+            .col-lg-12{
+                .col-lg-6{
+                    .location-serenia-images{
+                        .col-lg-4{
+                            padding: 0;
+                            .facility-images{
+                                background-color: #000;
+                                position: relative;
+                                img{
+                                    opacity: 0.4;
+                                    &:hover{
+                                        opacity: 1;
+                                        background-color: #000;
+                                         -webkit-transition: all 0.5s ease;
+                                        -moz-transition: all 0.5s ease;
+                                        -ms-transition: all 0.5s ease;
+                                        transition: all 0.5s ease;
+                                    }
+                                }
+                                h1{
+                                    position: absolute;
+                                    left: 0;
+                                    right: 0;
+                                    top: 40%;
+                                    color: #fff;
+                                    font-size: 38px;
+                                    letter-spacing: 3px;
+                                    font-weight: 100;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 .product {
     background-color: #EDEBE8;
