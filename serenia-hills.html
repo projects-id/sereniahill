@@ -93,12 +93,38 @@
 }
 .nav-tabs-images>li>a:hover{
 	border:transparent;
-}  
+}
+.facility .page-container .container{
+	position: absolute;
+    top: 750%;
+    z-index: 1;
+    text-align: -webkit-center;
+    width: 100%;
+}
+.facility .page-container .container .logo-amenities .title-logo-amenities{
+	width: 200px;
+    height: 150px;
+    display: inline-block;
+    color: #fff;
+}
+
+.facility .page-container .container .logo-amenities .title-logo-amenities p{
+	color: #fff;
+	font-size: 28px;
+	line-height: 30px;
+}
+ 
+.facility .page-container .container .logo-amenities .title-logo-amenities img{
+	height: 98px;
+} 
+.serenia-tab-content {
+	position: absolute;
+}   
 </style>
 <body>
 <div id="serenia-body">
 	<div class="main">
-<section class="banner">
+<!-- 		<section class="banner">
 			<div class="page-container">
 				<div class="banner-serenia">
 					<img src="https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/logo/logo-transparent-serenia.png" alt="">
@@ -177,10 +203,34 @@
 			<div class="page-container">
 			<h1>Product</h1>
 			</div>
-		</section>
+		</section> -->
 		<section class="facility">
 			<div class="page-container">
-				  <div role="tabpanel">
+				<div class="container">
+					<div class="logo-amenities">
+						<div class="title-logo-amenities">
+							<img src="https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/logo/24-hours.png" class="img-responsive" alt="Image">
+							<p>24-Hour</p>
+						</div>
+						<div class="title-logo-amenities">
+							<img src="https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/logo/bumpgate.png" class="img-responsive" alt="Image">
+							<p>Bumpgate</p>
+						</div>
+						<div class="title-logo-amenities">
+							<img src="https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/logo/cctv.png" class="img-responsive" alt="Image">
+							<p>CCTV</p>
+						</div>
+						<div class="title-logo-amenities">
+							<img src="https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/logo/panic.png" class="img-responsive" alt="Image">
+							<p>Panic Button</p>
+						</div>
+						<div class="title-logo-amenities">
+							<img src="https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/logo/well-trane.png" class="img-responsive" alt="Image">
+							<p>Well-Trained</p>
+						</div>
+					</div>
+				</div>
+				<div role="tabpanel">
 				  	<!-- Nav tabs -->
 				  	<ul class="nav nav-tabs" role="tablist">
 				  		<li role="presentation" class="active">
@@ -191,7 +241,7 @@
 				  		</li>
 				  	</ul>
 				  	<!-- Tab panes -->
-				  	<div class="tab-content">
+				  	<div class="tab-content serenia-tab-content">
 				  		<div role="tabpanel" class="tab-pane active" id="home">
 				  			<div class="container-fluid no-padding top">
 				  				<div role="tabpanel">
@@ -221,7 +271,7 @@
 						  		</div>
 				  			</div>
 				  		</div>
-				  		<div role="tabpanel" class="tab-pane" id="tab">
+						<div role="tabpanel" class="tab-pane" id="tab">
 				  			<div class="container-fluid no-padding top">
 				  				<div role="tabpanel">
 						  			<!-- Nav tabs -->
@@ -267,10 +317,11 @@
 				  			</div>
 				  		</div>
 				  	</div>
-				  </div>
+				</div>
+				
 			</div>	  
 		</section>
-		<section class="footer">
+<!-- 		<section class="footer">
 			<div class="page-container">
 				<div class="container">
 					<div class="logo-footer">
@@ -300,7 +351,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 	</div>
 </div>	
 
