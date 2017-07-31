@@ -1,4 +1,4 @@
-.tabsnav {
+.tabsnav-product {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -47,12 +47,13 @@
 	display: flex;
 	width: auto;
 	height: 100%;
+	position: relative;
 }
 
 .tabsnav--vertical .tabsnav__item {
 	flex: none;
 	width: 640px;
-	height: 100%;
+	height: 1080px;
 }
 
 /* Individual menu styles (Basque names) */
@@ -75,24 +76,30 @@
 }
 
 /* Zeru */
-.tabsnav--zeru {
-	background: #222525;
-}
-
 .tabsnav--zeru .tabsnav__item:first-child .tabsnav__bar {
-	background: url(https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/banner/bg-signature-1920x1080.png)
+	background: url(https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/banner/bg-signature-1920x1080.png);
+	transform-origin: 0% 0% 0px !important;
+    transform: none !important;
 }
 
 .tabsnav--zeru .tabsnav__item:nth-child(2) .tabsnav__bar {
-	background: url(https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/banner/bg-quantum-1920x1080.png)
+	background: url(https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/banner/bg-quantum-1920x1080.png);
+	transform-origin: 0% 0% 0px !important;
+    transform: none !important;
 }
 
 .tabsnav--zeru .tabsnav__item:nth-child(3) .tabsnav__bar {
-	background: url(https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/banner/bg-venture-1920x1080.png)
+	background: url(https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/banner/bg-venture-1920x1080.png);
+	transform-origin: 0% 0% 0px !important;
+    transform: none !important;
 }
 
 .tabsnav--zeru .tabsnav__title {
 	color: #fff;
+}
+
+.tabsnav--zeru .tabsnav__title span{
+	font-size: 30px;
 }
 
 /* Ibai */
@@ -119,7 +126,7 @@
 
 @media screen and (max-width: 40em) {
 	/* don't show a background if on mobile */
-	.tabsnav {
+	.tabsnav-product {
 		background: none;
 	}
 }

@@ -150,23 +150,23 @@ a:focus {
 }
 
 .btn--back {
-	font-size: 1.5em;
+	font-size: 6.5em;
 	position: absolute;
 	z-index: 1002;
-	top: 1em;
-	right: 1em;
+	top: 0em;
+	right: 0em;
 	opacity: 0;
-	color: #1d48f3;
+	color: #7F745E;
 }
 
 .btn--menu {
-	font-size: 0.85em;
-	position: absolute;
-	z-index: 1000;
-	top: 0;
-	left: 0;
-	display: none;
-	margin: 10px 0 0 6px;
+	font-size: 5.5em;
+    position: absolute;
+    z-index: 1002;
+    top: 0em;
+    right: 0em;
+    opacity: 0;
+    color: #795548;
 }
 
 .btn--menu-active .icon--menu,
