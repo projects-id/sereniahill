@@ -78,11 +78,36 @@
 .carousel-venture{
 	bottom: 240%;
 }
+
+.nav-tabs-modal>li.active>a, .nav-tabs-modal>li.active>a:hover, .nav-tabs-modal>li.active>a:focus {
+    color: #fff;
+    cursor: default;
+    background: #7f745e;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.tab-serenia{
+    background: #7F745E;
+    width: 1150px;
+    height: 600px;
+}
+.nav-tabs-srn{
+	right: 538px;
+    position: absolute;
+    top: 660px;
+}
+.tab-pane-srn{
+	width: 600px;
+    height: 600px;
+    background-color: #fff;
+}
 </style>
 <body>
 <div id="serenia-body">
 	<div class="main">
-		<section class="banner">
+<!-- 		<section class="banner">
 			<div class="page-container">
 				<div class="banner-serenia">
 					<img src="https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/logo/logo-transparent-serenia.png" alt="">
@@ -156,7 +181,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<section class="product">
 			<div class="page-container">
 				<svg class="hidden">
@@ -404,7 +429,7 @@
 			  		<div role="tabpanel" class="tab-pane active" id="home">
 			  			<div class="container-fluid no-padding top">
 			  				<div role="tabpanel">
-					  			<ul class="nav nav-tabs nav-tabs-images" role="tablist">
+					  			<ul class="nav nav-tabs nav-tabs-sernia nav-tabs-images" role="tablist">
 					  				<li role="presentation" class="active">
 					  					<a href="#echo" aria-controls="echo" role="tab" data-toggle="tab">Gym Ayee</a>
 					  				</li>
@@ -430,7 +455,7 @@
 					<div role="tabpanel" class="tab-pane" id="tab">
 			  			<div class="container-fluid no-padding top">
 			  				<div role="tabpanel">
-					  			<ul class="nav nav-tabs nav-tabs-images" role="tablist">
+					  			<ul class="nav nav-tabs nav-tabs-sernia nav-tabs-images" role="tablist">
 					  				<li role="presentation" class="active">
 					  					<a href="#alpa" aria-controls="alpa" role="tab" data-toggle="tab">Lounge</a>
 					  				</li>
@@ -519,20 +544,262 @@
         
       </div>
       <div class="modal-body">
-		<!-- <div role="tabpanel">
-			<ul class="nav nav-tabs" role="tablist">
-				<li role="presentation" class="active">
-					<a href="#home" aria-controls="home" role="tab" data-toggle="tab">home</a>
-				</li>
-				<li role="presentation">
-					<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">tab</a>
-				</li>
-			</ul>
-			<div class="tab-content">
-				<div role="tabpanel" class="tab-pane active" id="home">...</div>
-				<div role="tabpanel" class="tab-pane" id="tab">...</div>
-			</div>
-		</div> -->
+	      	<div class="container">
+		      	<div role="tabpanel">
+					<ul class="nav-tabs-modal nav nav-tabs" role="tablist">
+						<li role="presentation" class="active">
+							<a href="#typeone" aria-controls="home" role="tab" data-toggle="tab">TYPE 1</a>
+						</li>
+						<li role="presentation">
+							<a href="#typetwo" aria-controls="tab" role="tab" data-toggle="tab">TYPE 2</a>
+						</li>
+						<li role="presentation">
+							<a href="#typethree" aria-controls="tab" role="tab" data-toggle="tab">TYPE 3</a>
+						</li>
+						<li role="presentation">
+							<a href="#typefour" aria-controls="tab" role="tab" data-toggle="tab">TYPE 4</a>
+						</li>
+					</ul>
+					<div class="tab-content tab-serenia">
+						<div role="tabpanel" class="tab-pane active" id="typeone">
+							<div role="tabpanel">
+								<ul class="nav nav-tabs nav-tabs-srn" role="tablist">
+									<li role="presentation" class="active">
+										<a href="#photo" aria-controls="home" role="tab" data-toggle="tab">home</a>
+									</li>
+									<li role="presentation">
+										<a href="#floorplan" aria-controls="tab" role="tab" data-toggle="tab">floorplan</a>
+									</li>
+									<li role="presentation">
+										<a href="#video" aria-controls="home" role="tab" data-toggle="tab">video</a>
+									</li>
+									<li role="presentation">
+										<a href="#3d" aria-controls="tab" role="tab" data-toggle="tab">3d</a>
+									</li>
+								</ul>
+								<div class="tab-content">
+									<div role="tabpanel" class="tab-pane tab-pane-srn active" id="photo">
+										<div class="details-photo">
+											<div id="carousel-id" class="carousel slide" data-ride="carousel">
+												<ol class="carousel-indicators">
+													<li data-target="#carousel-id" data-slide-to="0" class=""></li>
+													<li data-target="#carousel-id" data-slide-to="1" class=""></li>
+													<li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+												</ol>
+												<div class="carousel-inner">
+													<div class="item">
+														<img data-src="slide" alt="First slide" src="https://sipusmeong.files.wordpress.com/2016/04/desain-rumah-kontainer-yang-keren-abis-1.jpg?w=600">
+													</div>
+													<div class="item">
+														<img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="http://1.bp.blogspot.com/-X7w79Z2mZBc/UiBLhM56MFI/AAAAAAAABBQ/NDNe6tLyk7g/s1600/31.jpg">
+													</div>
+													<div class="item active">
+														<img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="https://id2-cdn.pgimgs.com/listing/12659414/UPHO.64160165.V800/Rumah-2-Lantai-di-Jaktim-dengan-DP-0-Jakarta-Timur-Indonesia.jpg">
+													</div>
+												</div>
+												<a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+												<a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+											</div>
+										</div>
+									</div>
+									<div role="tabpanel" class="tab-pane tab-pane-srn" id="floorplan">
+										<div class="details-floorplan">
+											<img src="https://s-media-cache-ak0.pinimg.com/736x/d6/bd/00/d6bd0055b4fc0822c9c6b7d34b846646--two-bedroom-apartments--bedroom-apartment-floor-plan.jpg" alt="" class="img-responsive">
+										</div>
+									</div>
+									<div role="tabpanel" class="tab-pane tab-pane-srn" id="video">
+										<div class="details-video">
+											<div class="img"><iframe src="https://www.youtube.com/embed/EU2XG99EAlc" frameborder="0" allowfullscreen height="600" width="600" class="center-block"></iframe></div>
+										</div>
+									</div>
+									<div role="tabpanel" class="tab-pane tab-pane-srn" id="3d">
+										<div class="details-3d">
+											<iframe width="100%" height="600" src="https://my.matterport.com/show/?m=H9WEV4WhNgK" frameborder="0" allowfullscreen></iframe>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="typetwo">
+							<div role="tabpanel">
+								<ul class="nav nav-tabs nav-tabs-srn" role="tablist">
+									<li role="presentation" class="active">
+										<a href="#photo" aria-controls="home" role="tab" data-toggle="tab">home</a>
+									</li>
+									<li role="presentation">
+										<a href="#floorplan" aria-controls="tab" role="tab" data-toggle="tab">floorplan</a>
+									</li>
+									<li role="presentation">
+										<a href="#video" aria-controls="home" role="tab" data-toggle="tab">video</a>
+									</li>
+									<li role="presentation">
+										<a href="#3d" aria-controls="tab" role="tab" data-toggle="tab">3d</a>
+									</li>
+								</ul>
+								<div class="tab-content">
+									<div role="tabpanel" class="tab-pane tab-pane-srn active" id="photo">
+										<div class="details-photo">
+											<div id="carousel-id" class="carousel slide" data-ride="carousel">
+												<ol class="carousel-indicators">
+													<li data-target="#carousel-id" data-slide-to="0" class=""></li>
+													<li data-target="#carousel-id" data-slide-to="1" class=""></li>
+													<li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+												</ol>
+												<div class="carousel-inner">
+													<div class="item">
+														<img data-src="slide" alt="First slide" src="https://sipusmeong.files.wordpress.com/2016/04/desain-rumah-kontainer-yang-keren-abis-1.jpg?w=600">
+													</div>
+													<div class="item">
+														<img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="http://1.bp.blogspot.com/-X7w79Z2mZBc/UiBLhM56MFI/AAAAAAAABBQ/NDNe6tLyk7g/s1600/31.jpg">
+													</div>
+													<div class="item active">
+														<img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="https://id2-cdn.pgimgs.com/listing/12659414/UPHO.64160165.V800/Rumah-2-Lantai-di-Jaktim-dengan-DP-0-Jakarta-Timur-Indonesia.jpg">
+													</div>
+												</div>
+												<a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+												<a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+											</div>
+										</div>
+									</div>
+									<div role="tabpanel" class="tab-pane tab-pane-srn" id="floorplan">
+										<div class="details-floorplan">
+											<img src="https://s-media-cache-ak0.pinimg.com/736x/d6/bd/00/d6bd0055b4fc0822c9c6b7d34b846646--two-bedroom-apartments--bedroom-apartment-floor-plan.jpg" alt="" class="img-responsive">
+										</div>
+									</div>
+									<div role="tabpanel" class="tab-pane tab-pane-srn" id="video">
+										<div class="details-video">
+											<div class="img"><iframe src="https://www.youtube.com/embed/EU2XG99EAlc" frameborder="0" allowfullscreen height="600" width="600" class="center-block"></iframe></div>
+										</div>
+									</div>
+									<div role="tabpanel" class="tab-pane tab-pane-srn" id="3d">
+										<div class="details-3d">
+											<iframe width="100%" height="600" src="https://my.matterport.com/show/?m=H9WEV4WhNgK" frameborder="0" allowfullscreen></iframe>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="typethree">
+							<div role="tabpanel">
+								<ul class="nav nav-tabs nav-tabs-srn" role="tablist">
+									<li role="presentation" class="active">
+										<a href="#photo" aria-controls="home" role="tab" data-toggle="tab">home</a>
+									</li>
+									<li role="presentation">
+										<a href="#floorplan" aria-controls="tab" role="tab" data-toggle="tab">floorplan</a>
+									</li>
+									<li role="presentation">
+										<a href="#video" aria-controls="home" role="tab" data-toggle="tab">video</a>
+									</li>
+									<li role="presentation">
+										<a href="#3d" aria-controls="tab" role="tab" data-toggle="tab">3d</a>
+									</li>
+								</ul>
+								<div class="tab-content">
+									<div role="tabpanel" class="tab-pane tab-pane-srn active" id="photo">
+										<div class="details-photo">
+											<div id="carousel-id" class="carousel slide" data-ride="carousel">
+												<ol class="carousel-indicators">
+													<li data-target="#carousel-id" data-slide-to="0" class=""></li>
+													<li data-target="#carousel-id" data-slide-to="1" class=""></li>
+													<li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+												</ol>
+												<div class="carousel-inner">
+													<div class="item">
+														<img data-src="slide" alt="First slide" src="https://sipusmeong.files.wordpress.com/2016/04/desain-rumah-kontainer-yang-keren-abis-1.jpg?w=600">
+													</div>
+													<div class="item">
+														<img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="http://1.bp.blogspot.com/-X7w79Z2mZBc/UiBLhM56MFI/AAAAAAAABBQ/NDNe6tLyk7g/s1600/31.jpg">
+													</div>
+													<div class="item active">
+														<img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="https://id2-cdn.pgimgs.com/listing/12659414/UPHO.64160165.V800/Rumah-2-Lantai-di-Jaktim-dengan-DP-0-Jakarta-Timur-Indonesia.jpg">
+													</div>
+												</div>
+												<a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+												<a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+											</div>
+										</div>
+									</div>
+									<div role="tabpanel" class="tab-pane tab-pane-srn" id="floorplan">
+										<div class="details-floorplan">
+											<img src="https://s-media-cache-ak0.pinimg.com/736x/d6/bd/00/d6bd0055b4fc0822c9c6b7d34b846646--two-bedroom-apartments--bedroom-apartment-floor-plan.jpg" alt="" class="img-responsive">
+										</div>
+									</div>
+									<div role="tabpanel" class="tab-pane tab-pane-srn" id="video">
+										<div class="details-video">
+											<div class="img"><iframe src="https://www.youtube.com/embed/EU2XG99EAlc" frameborder="0" allowfullscreen height="600" width="600" class="center-block"></iframe></div>
+										</div>
+									</div>
+									<div role="tabpanel" class="tab-pane tab-pane-srn" id="3d">
+										<div class="details-3d">
+											<iframe width="100%" height="600" src="https://my.matterport.com/show/?m=H9WEV4WhNgK" frameborder="0" allowfullscreen></iframe>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="typefour">
+							<div role="tabpanel">
+								<ul class="nav nav-tabs nav-tabs-srn" role="tablist">
+									<li role="presentation" class="active">
+										<a href="#photo" aria-controls="home" role="tab" data-toggle="tab">home</a>
+									</li>
+									<li role="presentation">
+										<a href="#floorplan" aria-controls="tab" role="tab" data-toggle="tab">floorplan</a>
+									</li>
+									<li role="presentation">
+										<a href="#video" aria-controls="home" role="tab" data-toggle="tab">video</a>
+									</li>
+									<li role="presentation">
+										<a href="#3d" aria-controls="tab" role="tab" data-toggle="tab">3d</a>
+									</li>
+								</ul>
+								<div class="tab-content">
+									<div role="tabpanel" class="tab-pane tab-pane-srn active" id="photo">
+										<div class="details-photo">
+											<div id="carousel-id" class="carousel slide" data-ride="carousel">
+												<ol class="carousel-indicators">
+													<li data-target="#carousel-id" data-slide-to="0" class=""></li>
+													<li data-target="#carousel-id" data-slide-to="1" class=""></li>
+													<li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+												</ol>
+												<div class="carousel-inner">
+													<div class="item">
+														<img data-src="slide" alt="First slide" src="https://sipusmeong.files.wordpress.com/2016/04/desain-rumah-kontainer-yang-keren-abis-1.jpg?w=600">
+													</div>
+													<div class="item">
+														<img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="http://1.bp.blogspot.com/-X7w79Z2mZBc/UiBLhM56MFI/AAAAAAAABBQ/NDNe6tLyk7g/s1600/31.jpg">
+													</div>
+													<div class="item active">
+														<img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="https://id2-cdn.pgimgs.com/listing/12659414/UPHO.64160165.V800/Rumah-2-Lantai-di-Jaktim-dengan-DP-0-Jakarta-Timur-Indonesia.jpg">
+													</div>
+												</div>
+												<a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+												<a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+											</div>
+										</div>
+									</div>
+									<div role="tabpanel" class="tab-pane tab-pane-srn" id="floorplan">
+										<div class="details-floorplan">
+											<img src="https://s-media-cache-ak0.pinimg.com/736x/d6/bd/00/d6bd0055b4fc0822c9c6b7d34b846646--two-bedroom-apartments--bedroom-apartment-floor-plan.jpg" alt="" class="img-responsive">
+										</div>
+									</div>
+									<div role="tabpanel" class="tab-pane tab-pane-srn" id="video">
+										<div class="details-video">
+											<div class="img"><iframe src="https://www.youtube.com/embed/EU2XG99EAlc" frameborder="0" allowfullscreen height="600" width="600" class="center-block"></iframe></div>
+										</div>
+									</div>
+									<div role="tabpanel" class="tab-pane tab-pane-srn" id="3d">
+										<div class="details-3d">
+											<iframe width="100%" height="600" src="https://my.matterport.com/show/?m=H9WEV4WhNgK" frameborder="0" allowfullscreen></iframe>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+	      	</div>
       </div>
     </div>
   </div>

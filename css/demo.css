@@ -19,7 +19,7 @@ a {
 
 a:hover,
 a:focus {
-	color: #1d48f3;
+	color: #7f745e;
 }
 
 .hidden {
@@ -346,7 +346,7 @@ a:focus {
 .demo-2 .codrops-header__deco,
 .demo-2 a:hover,
 .demo-2 a:focus {
-	color: #ff764b;
+	color: #7f745e;
 }
 
 .demo-2 .deco__text,
