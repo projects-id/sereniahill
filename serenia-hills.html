@@ -118,6 +118,38 @@
     color: #7f745e;
     margin-left: 0px;
 }
+/*modal*/
+.modal-title-product{
+	float: left;
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    left: 1000px;
+}
+
+.modal-title-product .icon-fasilitas{
+	width: 100%;
+    display: inline-flex;
+    margin-left: 36px;
+    letter-spacing: 14px;
+}
+
+.modal-title-product h1{
+	font-size: 60px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 80px;
+}
+.modal-title-product span{
+	font-size: 48px;
+    color: #fff;
+    font-weight: 200;
+}
+.modal-title-product p{
+	font-size: 28px;
+    color: #fff;
+    margin-left: 0px;
+}
 .tab-serenia{
     background: #7F745E;
     width: 1150px;
@@ -628,23 +660,32 @@
 					</ul>
 					<div class="tab-content tab-serenia">
 						<div role="tabpanel" class="tab-pane active" id="typeone">
+							<div class="modal-title-product">
+								<h1 data-toggle="modal" data-target="#myModal"><span>Type</span>1</h1>
+								<div class="icon-fasilitas">
+									<p><i class="fa fa-bed"></i>3</p>
+									<p><i class="fa fa-bath"></i>2</p>
+									<p><i class="fa fa-car"></i>1</p>
+								</div>
+								<p>LB: 155m2 LT: 140 m2</p>
+							</div>
 							<div role="tabpanel">
 								<ul class="nav nav-tabs nav-tabs-srn" role="tablist">
 									<li role="presentation" class="active">
-										<a href="#photo" aria-controls="home" role="tab" data-toggle="tab">home</a>
+										<a href="#typeonephoto" aria-controls="home" role="tab" data-toggle="tab">home</a>
 									</li>
 									<li role="presentation">
-										<a href="#floorplan" aria-controls="tab" role="tab" data-toggle="tab">floorplan</a>
+										<a href="#typeonefloorplan" aria-controls="tab" role="tab" data-toggle="tab">floorplan</a>
 									</li>
 									<li role="presentation">
-										<a href="#video" aria-controls="home" role="tab" data-toggle="tab">video</a>
+										<a href="#typeonevideo" aria-controls="home" role="tab" data-toggle="tab">video</a>
 									</li>
 									<li role="presentation">
-										<a href="#3d" aria-controls="tab" role="tab" data-toggle="tab">3d</a>
+										<a href="#typeone3d" aria-controls="tab" role="tab" data-toggle="tab">3d</a>
 									</li>
 								</ul>
 								<div class="tab-content">
-									<div role="tabpanel" class="tab-pane tab-pane-srn active" id="photo">
+									<div role="tabpanel" class="tab-pane tab-pane-srn active" id="typeonephoto">
 										<div class="details-photo">
 											<div id="carousel-id" class="carousel slide" data-ride="carousel">
 												<ol class="carousel-indicators">
@@ -668,17 +709,17 @@
 											</div>
 										</div>
 									</div>
-									<div role="tabpanel" class="tab-pane tab-pane-srn" id="floorplan">
+									<div role="tabpanel" class="tab-pane tab-pane-srn" id="typeonefloorplan">
 										<div class="details-floorplan">
 											<img src="https://s-media-cache-ak0.pinimg.com/736x/d6/bd/00/d6bd0055b4fc0822c9c6b7d34b846646--two-bedroom-apartments--bedroom-apartment-floor-plan.jpg" alt="" class="img-responsive">
 										</div>
 									</div>
-									<div role="tabpanel" class="tab-pane tab-pane-srn" id="video">
+									<div role="tabpanel" class="tab-pane tab-pane-srn" id="typeonevideo">
 										<div class="details-video">
 											<div class="img"><iframe src="https://www.youtube.com/embed/EU2XG99EAlc" frameborder="0" allowfullscreen height="600" width="600" class="center-block"></iframe></div>
 										</div>
 									</div>
-									<div role="tabpanel" class="tab-pane tab-pane-srn" id="3d">
+									<div role="tabpanel" class="tab-pane tab-pane-srn" id="typeone3d">
 										<div class="details-3d">
 											<iframe width="100%" height="600" src="https://my.matterport.com/show/?m=H9WEV4WhNgK" frameborder="0" allowfullscreen></iframe>
 										</div>
@@ -687,23 +728,32 @@
 							</div>
 						</div>
 						<div role="tabpanel" class="tab-pane" id="typetwo">
+							<div class="modal-title-product">
+								<h1 data-toggle="modal" data-target="#myModal"><span>Type</span>2</h1>
+								<div class="icon-fasilitas">
+									<p><i class="fa fa-bed"></i>3</p>
+									<p><i class="fa fa-bath"></i>2</p>
+									<p><i class="fa fa-car"></i>1</p>
+								</div>
+								<p>LB: 155m2 LT: 140 m2</p>
+							</div>
 							<div role="tabpanel">
 								<ul class="nav nav-tabs nav-tabs-srn" role="tablist">
 									<li role="presentation" class="active">
-										<a href="#photo" aria-controls="home" role="tab" data-toggle="tab">home</a>
+										<a href="#typetwophoto" aria-controls="home" role="tab" data-toggle="tab">home</a>
 									</li>
 									<li role="presentation">
-										<a href="#floorplan" aria-controls="tab" role="tab" data-toggle="tab">floorplan</a>
+										<a href="#typetwofloorplan" aria-controls="tab" role="tab" data-toggle="tab">floorplan</a>
 									</li>
 									<li role="presentation">
-										<a href="#video" aria-controls="home" role="tab" data-toggle="tab">video</a>
+										<a href="#typetwovideo" aria-controls="home" role="tab" data-toggle="tab">video</a>
 									</li>
 									<li role="presentation">
-										<a href="#3d" aria-controls="tab" role="tab" data-toggle="tab">3d</a>
+										<a href="#typetwo3d" aria-controls="tab" role="tab" data-toggle="tab">3d</a>
 									</li>
 								</ul>
 								<div class="tab-content">
-									<div role="tabpanel" class="tab-pane tab-pane-srn active" id="photo">
+									<div role="tabpanel" class="tab-pane tab-pane-srn active" id="typetwophoto">
 										<div class="details-photo">
 											<div id="carousel-id" class="carousel slide" data-ride="carousel">
 												<ol class="carousel-indicators">
@@ -727,17 +777,17 @@
 											</div>
 										</div>
 									</div>
-									<div role="tabpanel" class="tab-pane tab-pane-srn" id="floorplan">
+									<div role="tabpanel" class="tab-pane tab-pane-srn" id="typetwofloorplan">
 										<div class="details-floorplan">
 											<img src="https://s-media-cache-ak0.pinimg.com/736x/d6/bd/00/d6bd0055b4fc0822c9c6b7d34b846646--two-bedroom-apartments--bedroom-apartment-floor-plan.jpg" alt="" class="img-responsive">
 										</div>
 									</div>
-									<div role="tabpanel" class="tab-pane tab-pane-srn" id="video">
+									<div role="tabpanel" class="tab-pane tab-pane-srn" id="typetwovideo">
 										<div class="details-video">
 											<div class="img"><iframe src="https://www.youtube.com/embed/EU2XG99EAlc" frameborder="0" allowfullscreen height="600" width="600" class="center-block"></iframe></div>
 										</div>
 									</div>
-									<div role="tabpanel" class="tab-pane tab-pane-srn" id="3d">
+									<div role="tabpanel" class="tab-pane tab-pane-srn" id="typetwo3d">
 										<div class="details-3d">
 											<iframe width="100%" height="600" src="https://my.matterport.com/show/?m=H9WEV4WhNgK" frameborder="0" allowfullscreen></iframe>
 										</div>
@@ -746,23 +796,32 @@
 							</div>
 						</div>
 						<div role="tabpanel" class="tab-pane" id="typethree">
+							<div class="modal-title-product">
+								<h1 data-toggle="modal" data-target="#myModal"><span>Type</span>3</h1>
+								<div class="icon-fasilitas">
+									<p><i class="fa fa-bed"></i>3</p>
+									<p><i class="fa fa-bath"></i>2</p>
+									<p><i class="fa fa-car"></i>1</p>
+								</div>
+								<p>LB: 155m2 LT: 140 m2</p>
+							</div>
 							<div role="tabpanel">
 								<ul class="nav nav-tabs nav-tabs-srn" role="tablist">
 									<li role="presentation" class="active">
-										<a href="#photo" aria-controls="home" role="tab" data-toggle="tab">home</a>
+										<a href="#typethreephoto" aria-controls="home" role="tab" data-toggle="tab">home</a>
 									</li>
 									<li role="presentation">
-										<a href="#floorplan" aria-controls="tab" role="tab" data-toggle="tab">floorplan</a>
+										<a href="#typethreefloorplan" aria-controls="tab" role="tab" data-toggle="tab">floorplan</a>
 									</li>
 									<li role="presentation">
-										<a href="#video" aria-controls="home" role="tab" data-toggle="tab">video</a>
+										<a href="#typethreevideo" aria-controls="home" role="tab" data-toggle="tab">video</a>
 									</li>
 									<li role="presentation">
-										<a href="#3d" aria-controls="tab" role="tab" data-toggle="tab">3d</a>
+										<a href="#typethree3d" aria-controls="tab" role="tab" data-toggle="tab">3d</a>
 									</li>
 								</ul>
 								<div class="tab-content">
-									<div role="tabpanel" class="tab-pane tab-pane-srn active" id="photo">
+									<div role="tabpanel" class="tab-pane tab-pane-srn active" id="typethreephoto">
 										<div class="details-photo">
 											<div id="carousel-id" class="carousel slide" data-ride="carousel">
 												<ol class="carousel-indicators">
@@ -786,17 +845,17 @@
 											</div>
 										</div>
 									</div>
-									<div role="tabpanel" class="tab-pane tab-pane-srn" id="floorplan">
+									<div role="tabpanel" class="tab-pane tab-pane-srn" id="typethreefloorplan">
 										<div class="details-floorplan">
 											<img src="https://s-media-cache-ak0.pinimg.com/736x/d6/bd/00/d6bd0055b4fc0822c9c6b7d34b846646--two-bedroom-apartments--bedroom-apartment-floor-plan.jpg" alt="" class="img-responsive">
 										</div>
 									</div>
-									<div role="tabpanel" class="tab-pane tab-pane-srn" id="video">
+									<div role="tabpanel" class="tab-pane tab-pane-srn" id="typethreevideo">
 										<div class="details-video">
 											<div class="img"><iframe src="https://www.youtube.com/embed/EU2XG99EAlc" frameborder="0" allowfullscreen height="600" width="600" class="center-block"></iframe></div>
 										</div>
 									</div>
-									<div role="tabpanel" class="tab-pane tab-pane-srn" id="3d">
+									<div role="tabpanel" class="tab-pane tab-pane-srn" id="typethree3d">
 										<div class="details-3d">
 											<iframe width="100%" height="600" src="https://my.matterport.com/show/?m=H9WEV4WhNgK" frameborder="0" allowfullscreen></iframe>
 										</div>
@@ -805,23 +864,32 @@
 							</div>
 						</div>
 						<div role="tabpanel" class="tab-pane" id="typefour">
+							<div class="modal-title-product">
+								<h1 data-toggle="modal" data-target="#myModal"><span>Type</span>4</h1>
+								<div class="icon-fasilitas">
+									<p><i class="fa fa-bed"></i>3</p>
+									<p><i class="fa fa-bath"></i>2</p>
+									<p><i class="fa fa-car"></i>1</p>
+								</div>
+								<p>LB: 155m2 LT: 140 m2</p>
+							</div>
 							<div role="tabpanel">
 								<ul class="nav nav-tabs nav-tabs-srn" role="tablist">
 									<li role="presentation" class="active">
-										<a href="#photo" aria-controls="home" role="tab" data-toggle="tab">home</a>
+										<a href="#typefourphoto" aria-controls="home" role="tab" data-toggle="tab">home</a>
 									</li>
 									<li role="presentation">
-										<a href="#floorplan" aria-controls="tab" role="tab" data-toggle="tab">floorplan</a>
+										<a href="#typefourfloorplan" aria-controls="tab" role="tab" data-toggle="tab">floorplan</a>
 									</li>
 									<li role="presentation">
-										<a href="#video" aria-controls="home" role="tab" data-toggle="tab">video</a>
+										<a href="#typefourvideo" aria-controls="home" role="tab" data-toggle="tab">video</a>
 									</li>
 									<li role="presentation">
-										<a href="#3d" aria-controls="tab" role="tab" data-toggle="tab">3d</a>
+										<a href="#typefour3d" aria-controls="tab" role="tab" data-toggle="tab">3d</a>
 									</li>
 								</ul>
 								<div class="tab-content">
-									<div role="tabpanel" class="tab-pane tab-pane-srn active" id="photo">
+									<div role="tabpanel" class="tab-pane tab-pane-srn active" id="typefourphoto">
 										<div class="details-photo">
 											<div id="carousel-id" class="carousel slide" data-ride="carousel">
 												<ol class="carousel-indicators">
@@ -845,17 +913,17 @@
 											</div>
 										</div>
 									</div>
-									<div role="tabpanel" class="tab-pane tab-pane-srn" id="floorplan">
+									<div role="tabpanel" class="tab-pane tab-pane-srn" id="typefourfloorplan">
 										<div class="details-floorplan">
 											<img src="https://s-media-cache-ak0.pinimg.com/736x/d6/bd/00/d6bd0055b4fc0822c9c6b7d34b846646--two-bedroom-apartments--bedroom-apartment-floor-plan.jpg" alt="" class="img-responsive">
 										</div>
 									</div>
-									<div role="tabpanel" class="tab-pane tab-pane-srn" id="video">
+									<div role="tabpanel" class="tab-pane tab-pane-srn" id="typefourvideo">
 										<div class="details-video">
 											<div class="img"><iframe src="https://www.youtube.com/embed/EU2XG99EAlc" frameborder="0" allowfullscreen height="600" width="600" class="center-block"></iframe></div>
 										</div>
 									</div>
-									<div role="tabpanel" class="tab-pane tab-pane-srn" id="3d">
+									<div role="tabpanel" class="tab-pane tab-pane-srn" id="typefour3d">
 										<div class="details-3d">
 											<iframe width="100%" height="600" src="https://my.matterport.com/show/?m=H9WEV4WhNgK" frameborder="0" allowfullscreen></iframe>
 										</div>
