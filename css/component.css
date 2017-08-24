@@ -83,13 +83,13 @@
 }
 
 .tabsnav--zeru .tabsnav__item:nth-child(2) .tabsnav__bar {
-	background: url(https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/banner/bg-quantum-1920x1080.png);
+	background: url(https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/banner/bg-venture-1920x1080.png);
 	transform-origin: 0% 0% 0px !important;
     transform: none !important;
 }
 
 .tabsnav--zeru .tabsnav__item:nth-child(3) .tabsnav__bar {
-	background: url(https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/banner/bg-venture-1920x1080.png);
+	background: url(https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/banner/bg-quantum-1920x1080.png);
 	transform-origin: 0% 0% 0px !important;
     transform: none !important;
 }

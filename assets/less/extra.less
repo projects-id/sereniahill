@@ -189,9 +189,12 @@ body{
 }
 
 .banner{
-    background: url(https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/banner/banner-serenia-hills.png) no-repeat center;
+    background: url(https://d3p0bla3numw14.cloudfront.net/projects/serenia-hill/banner/background-sereniahill-last.jpg) no-repeat center;
     .page-container{
         margin: 300px 0 0 0;
+        @media only screen and (max-width: 1024px){
+           margin: 150px 0 0 0; 
+        }
         .banner-serenia{
             img{
                 width: 330px;
@@ -430,6 +433,10 @@ body{
                                     font-size: 38px;
                                     letter-spacing: 3px;
                                     font-weight: 100;
+                                    @media only screen and (max-width: 1024px){
+                                        font-size: 28px;   
+                                    }
+
                                 }
                             }
                         }
@@ -614,10 +621,10 @@ body{
     height: 1080px;
 }
 .carousel-quantum{
-    bottom: 120%;
+    bottom: 240%;
 }
 .carousel-venture{
-    bottom: 240%;
+    bottom: 120%;
 }
 
 .nav-tabs-modal>li.active>a, .nav-tabs-modal>li.active>a:hover, .nav-tabs-modal>li.active>a:focus {
@@ -818,12 +825,117 @@ a.right-srn.carousel-control{
                     }  
                 }
             }
+            #carousel-venture{
+                bottom: 560px;
+                .carousel-inner{
+                    .item{
+                        .col-md-4{
+                        width: auto;
+                           .item-product{
+                                height: 400px;
+                                width: 305px;
+                                img{
+                                    max-width: 300px;
+                                }
+                            } 
+                        }   
+                    }
+                    a.left-srn.carousel-control{
+                        background: rgba(127,116,94,0.73);
+                        opacity: 1;
+                        height: 50px;
+                        width: 50px;
+                        font-size: 50px;
+                        padding: 34px;
+                        top: 150px;
+                        span{
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                            right: 0;
+                            bottom: 0;
+                        }
+                    }
+
+                    a.right-srn.carousel-control{
+                        background: rgba(127,116,94,0.73);
+                        opacity: 1;
+                        height: 50px;
+                        width: 50px;
+                        font-size: 50px;
+                        padding: 34px;
+                        top: 150px;
+                        left: 31%;
+                        span{
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                            right: 0;
+                            bottom: 0;
+                        }
+                    }  
+                }
+            }
+            #carousel-quantum{
+                bottom: 1170px;
+                .carousel-inner{
+                    .item{
+                        .col-md-4{
+                        width: auto;
+                           .item-product{
+                                height: 400px;
+                                width: 305px;
+                                img{
+                                    max-width: 300px;
+                                }
+                            } 
+                        }   
+                    }
+                    a.left-srn.carousel-control{
+                        background: rgba(127,116,94,0.73);
+                        opacity: 1;
+                        height: 50px;
+                        width: 50px;
+                        font-size: 50px;
+                        padding: 34px;
+                        top: 150px;
+                        span{
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                            right: 0;
+                            bottom: 0;
+                        }
+                    }
+
+                    a.right-srn.carousel-control{
+                        background: rgba(127,116,94,0.73);
+                        opacity: 1;
+                        height: 50px;
+                        width: 50px;
+                        font-size: 50px;
+                        padding: 34px;
+                        top: 150px;
+                        left: 31%;
+                        span{
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                            right: 0;
+                            bottom: 0;
+                        }
+                    }  
+                }
+            }
         }
         
         .title-product{
             float: left;
             width: 280px;
             height: 215px;
+            p{
+                font-size: 20px;
+            }
             span{
                 font-size: 28px;
             }
@@ -831,15 +943,14 @@ a.right-srn.carousel-control{
                 font-size: 30px;
                 color: #7f745e;
                 font-weight: 600;
-                margin-bottom: 0;
-                margin: 0px;
-                float: left;
+                margin: 10px 47px 0 0;
             }
             .icon-fasilitas{
                 width: 100%;
                 display: inline-flex;
-                margin-left: 0px;
+                margin-left: 40px;
                 letter-spacing: 9px;
+                padding: 30px 0px 0px 0px;
             }
         }
         .tabscontent__item{
